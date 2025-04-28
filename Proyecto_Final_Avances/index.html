@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura General - Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<style>
+  /* Estilo para el botón de música */
+  #musicButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  #musicButton:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <img src="img/The United States Of America Introduction Presentation in Red Informative Style (8).png" alt="Idea"
+        class="icon">
+    </header>
+
+    <main class="question">
+      <h2 id="pregunta">¿Qué Ciudad Es Mejor?</h2>
+      <div class="city">
+        <img src="img/istockphoto-1208584425-612x612.jpg" alt="Gallina" id="imgg">
+      </div>
+
+      <div class="options">
+        <button id="op1">A. Colombia</button>
+        <button id="op2">B. Argentina</button>
+        <button id="op3">C. México</button>
+        <button id="op4">D. Roma</button>
+      </div>
+
+      <progress id="barra-progreso" max="100" value="100"> 70% </progress>
+
+      
+    </main>
+
+    <audio id="audioPlayer" style="display:none;" controls>
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <footer class="footer">
+      <img src="img/The United States Of America Introduction Presentation in Red Informative Style (9) (1).png"
+        alt="Decoración">
+    </footer>
+  </div>
+
+  <!-- Music Button -->
+  <button id="musicButton" class="ko">♫</button>
+
+  <script src="app.js"></script>
+
+
+
+</body>
+
+</html>

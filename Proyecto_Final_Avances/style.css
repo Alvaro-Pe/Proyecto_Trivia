@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', sans-serif;
+    background-image: url("img/d15112c8-d62d-467a-8c91-e779552e6801.jpeg");
+    color: white;
+  
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 450px;
+    border: 3px solid ; 
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    background-color: #fff;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .header .icon {
+    width: 100%;
+  }
+  
+  
+  .question {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .question h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .city {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .city img {
+    width: 60px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    padding: 10px;
+    border: 2px solid #3399ff;
+    border-radius: 5px;
+    background-color: white;
+    color: #3399ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .options button:hover {
+    background-color: #3399ff; /* Fondo azul */
+    color: black;              /* Texto blanco */
+    border-color: black;      /* Borde azul */
+  }
+  
+
+  
+  .footer {
+    text-align: center;
+    padding: 0px; 
+  }
+  
+  .footer img {
+    width: 100%;
+  }
+
+  #barra-progreso {
+    width: 90%;
+    /* centrado del elemento */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#estilo-excelente {
+  color:rgb(35, 161, 18);
+  font-weight: 600;
+}
+
+#estilo-bueno {
+  color:rgb(18, 161, 149);
+  font-weight: 600;
+}
+
+
+
+#estilo-regular {
+  color:rgb(214, 162, 19);
+  font-weight: 600;
+}
+
+.resultado_obtenido {
+  color:#3399ff;
+
+  padding-top: 50px;
+}
+
+.pregunta_nombre, .resultado_titulo {
+  color: blue;
+  text-align: center;
+  font-size: 1.5rem;  /* Comentar sobre medidas relativas */
+}
+
+
+#refreshButton {
+  background-color: #3399ff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#refreshButton:hover {
+  background-color: #2673cc;
+  transform: scale(1.05);
+}
